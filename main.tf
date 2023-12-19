@@ -58,6 +58,7 @@ resource "azurerm_virtual_network" "vnetcon1" {
   address_space       = [var.Address_space]
   tags                = var.binding_tags
   #dns_servers         = ["11.0.0.4", "11.0.0.5"]
+  provider = azurerm.subscription_2
 }
 
 
