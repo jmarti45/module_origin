@@ -51,6 +51,8 @@ resource "azurerm_resource_group" "comun" {
   tags     = var.binding_tags
   provider = azurerm.subscription_2
 }
+
+/*
 resource "azurerm_virtual_network" "vnetcon1" {
   name                = "vnet-${var.Enterprise1}-${var.Environment}-${var.Location.code}-01"
   location            = var.Location.name
@@ -60,3 +62,4 @@ resource "azurerm_virtual_network" "vnetcon1" {
   #dns_servers         = ["11.0.0.4", "11.0.0.5"]
   provider = azurerm.subscription_2
 }
+*/
