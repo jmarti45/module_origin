@@ -8,7 +8,7 @@ resource "azurerm_virtual_network" "vnetcon1" {
   provider = azurerm.subscription_2
 }
 
-
+/*
 
 resource "azurerm_subnet" "vgw" {
   name                 = "snet-${var.Enterprise1}-${var.Environment}-${var.Location.code}-01"
@@ -17,3 +17,4 @@ resource "azurerm_subnet" "vgw" {
   address_prefixes     = [var.Address_prefixes]
   provider             = azurerm.subscription_2
 }
+*/
