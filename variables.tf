@@ -31,20 +31,6 @@ variable "Project3" {
   default = null
 }
 
-# Adess space
-variable "Address_space" {
-  type = string
-}
-
-# Adess space
-variable "Address_prefixes" {
-  type = string
-}
-
-# remote virtual network id
-variable "remote_virtual_network_id" {
-  type = string
-}
 
 
 
