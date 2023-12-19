@@ -40,7 +40,7 @@ provider "azurerm" {
 }
 
 provider "azurerm" {
-  subscription_id = var.subs1
+  subscription_id = subscription_id = "454b896d-f798-4a54-a962-13de05c1e511"
   features {}
   alias = "subscription_2"
 }
