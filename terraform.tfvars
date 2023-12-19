@@ -4,9 +4,9 @@ Location = {
   name = "westeurope"
   code = "weu1"
 }
-Project1                  = "comun"
-Environment               = "pro"
-Enterprise1               = "con"
+Project1    = "comun"
+Environment = "pro"
+Enterprise1 = "con"
 
 binding_tags = {
   Sociedad             = "Test"
