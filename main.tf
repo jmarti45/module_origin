@@ -40,10 +40,11 @@ provider "azurerm" {
 }
 
 provider "azurerm" {
-  subscription_id = "454b896d-f798-4a54-a962-13de05c1e511"
+  subscription_id = var.subscription_id
   features {}
   alias = "subscription_2"
 }
+
 
 resource "azurerm_resource_group" "comun" {
   name     = "rg-${var.Enterprise1}-${var.Environment}-${var.Project1}-03"
