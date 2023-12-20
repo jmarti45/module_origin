@@ -31,7 +31,7 @@ variable "Project3" {
   default = null
 }
 
-
+/*
 # Adess space
 variable "Address_space" {
   type = string
@@ -59,3 +59,4 @@ variable "dev_sub_id" {
 variable "pre_sub_id" {
   type = map(string)
 }
+*/
