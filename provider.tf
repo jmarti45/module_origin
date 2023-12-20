@@ -6,7 +6,7 @@ terraform {
     }
   }
 }
-
+/*
 
 provider "azurerm" {
   alias           = "dev"
@@ -19,3 +19,4 @@ provider "azurerm" {
   subscription_id = var.pre_sub_id
   features {}
 }
+*/
