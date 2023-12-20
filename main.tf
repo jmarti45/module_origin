@@ -38,13 +38,13 @@ provider "azurerm" {
 provider "azurerm" {
   features {}
 }
-
+/*
 provider "azurerm" {
   subscription_id = var.subs1
   features {}
   alias = "subscription_2"
 }
-
+*/
 
 resource "azurerm_resource_group" "comun" {
   name     = "rg-${var.Enterprise1}-${var.Environment}-${var.Project1}-03"
