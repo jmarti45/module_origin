@@ -33,11 +33,12 @@ provider "azurerm" {
 }
 
 */
-
+/*
 
 provider "azurerm" {
   features {}
 }
+*/
 /*
 provider "azurerm" {
   subscription_id = var.subs1
