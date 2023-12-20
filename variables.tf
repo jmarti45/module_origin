@@ -49,3 +49,13 @@ variable "binding_tags" {
   default     = {}
   description = "Binding tags defined by resource"
 }
+
+# Location
+variable "dev_sub_id" {
+  type = map(string)
+}
+
+# Location
+variable "pre_sub_id" {
+  type = map(string)
+}
